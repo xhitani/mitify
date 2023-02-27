@@ -1,0 +1,16 @@
+.Puzzle {
+    width: var(--size);
+    height: var(--size);
+    position: absolute;
+    overflow: hidden;
+    margin-top: 10%;
+}
+
+.Puzzle-placeholder {
+    opacity: 0.2;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    margin-top: 10%;
+    height:340px;
+}

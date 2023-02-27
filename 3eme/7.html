@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="styles/style7.css" rel="stylesheet">
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Puzzle - 3EME INFO</title>
+    </head>
+    <body>
+        <a class="active" href="index.html"><img class="flag" src="assets/Germanypng.png" id="flag"></a>
+        <h1>Puzzle | 3EME INFO </h1>
+        <h3>7/10</h3>
+        <div class="wrapper">
+            <div class="link_wrapper">
+              <a class="aa" href="8.html">NEXT!</a>
+              
+            </div>
+            
+          </div>
+        <div class="u-flex">
+            <div id="puzzle" class="Puzzle">
+                
+            </div>
+            <form onsubmit="return verif()">
+            <label>die Antworten</label><input type="text" id="res" >
+            <input type="submit" value="einreichen">
+            
+        </form>
+        
+        <script>
+        function verif(){
+            if (document.getElementById("res").value =="leise")
+            {
+                alert("SUPER");
+                return false
+            }
+            else{
+                alert("FALSCH");
+                return false
+           }
+           return false
+        }
+        </script>
+        <script src="js/app.js"></script>
+        <script src="js/ui-helper.js"></script>
+        
+    </body>
+</html>

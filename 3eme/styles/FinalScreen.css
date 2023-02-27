@@ -1,0 +1,25 @@
+.FinalScreen {
+    position: absolute;
+    z-index: 200;
+    width: 100vw;
+    height: 0;
+    background: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}
+
+.FinalScreen--open {
+    opacity: 1;
+    height: 100vh;
+}
+
+.FinalScreen dd {
+    margin-left: 0;
+}

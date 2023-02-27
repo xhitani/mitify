@@ -1,0 +1,4 @@
+/* change this to increase/decrease puzzle size*/
+:root {
+    --size: 400px;
+}

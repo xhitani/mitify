@@ -1,0 +1,8 @@
+.UserStats {
+    width: 200px;
+    margin-left: 10px
+}
+
+.UserStats dd {
+    margin-left: 0;
+}
